@@ -3,9 +3,9 @@
     --primary-color: #8FD6E0; /* Sky Blue */
     --darker-primary-color: #58848a; /* Deep Evergreen */
     --secondary-color: #757575; /* Dark Gray Background */
-    --inner-card: #2b2b2b;
+    --inner-card: #5A5A5A;
     --card-colors: #3A3A3A;
-    --card-border: #5A5A5A;
+    --card-border: #2b2b2b;
     --text-color: #F4F6F5; /* Soft Off-White for contrast */
 }
 
@@ -14,7 +14,7 @@ html, body {
     margin: 0 5% 0 5%;
     padding: 0;
     font-family: Arial, sans-serif;
-    background-color: var(--secondary-color);
+    background-color: var(--card-border);
     color: var(--text-color);
     scroll-behavior: smooth;
 }
